@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en-US"> 
+<!--Head-->
+<head>
+    <title>Home</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="mycss.css" />
+    <!--<script type="module" src="drawing.js"></script>-->
+    <script type="module" src="mysteryMosaicCode.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+
+<!--Body-->
+<body>
+<!--Navigation-->
+<nav>
+    <p><a href="index.html">Home</a></p>
+    <p><a href="research.html">Research</a></p>
+    <p><a href="programming.html">Projects</a></p>
+</nav>
+
+<!--Heading-->
+
+<h1>Mystery Mosaic</h1>
+<!--Introduction section with example-->
+<section id="introduction">
+    <div class="nicebox">
+    <h2>How it Works</h2>
+    <p class="regular">
+        You can make your own mystery mosaic here. All you will need to do is choose a picture and choose a difficulty. Keep in mind that this process is a little rudimentary, so images with clear colors will give better outputs, like cartoons. 
+    </p>
+    <p class="regular">
+        All images used below are from Google Images with Creative Commons licenses.  
+    </p>
+    <div id="howItWorksPicture"></div>
+    </div>
+</section>
+<!--Make your own section-->
+<div class="nicespace">
+<section>
+    <h2>Make Your Own</h2>
+    <div id="userImageSection">
+    <p class="regular">
+        Upload your own picture here and choose your difficulty. You can see some samples below. 
+        <ul>
+            <li><b>Easy</b> mosaics are roughy 15 squares accross. It is best to use images with simple shapes with little to no outlines. </li>
+            <li><b>Medium</b> mosaics are roughy 25 squares accross.</li>
+            <li><b>Hard</b> mosaics are roughy 35 squares accross.</li>
+        </ul>
+    </p>
+    <p class="regular">
+        <label for="userImage">Choose a picture:</label>
+        <input type="file" id="userImage" name="userImage" accept="image/*.png, image/*.jpeg, , image/*.pdf" />
+    </p>
+    <p class="regular">
+        <label for="difficulty">Choose dificulty level:</label>
+        <select name="difficulty" id="difficulty">
+            <!--<option value="">--Please choose an option--</option>-->
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+    </p>
+    <p class="regular">
+        <button id="buttonProcessor">Process my image!</button>
+    </p>
+    </div>
+    <p id="alertMessages"></p>
+    <div id="userImages"></div>
+</div>
+</section>
+
+ <!--Others I have done-->
+ <div class="nicebox">
+ <section id="examplesForDownload">
+    <h2>Ready for Coloring</h2>
+    <p class="regular">
+        Here are a couple color-by-numer mystery mosaics.  
+    </p>
+    <h3>Easy</h3>
+    <div id="easyExamples"></div>
+    <h3>Medium</h3>
+    <div id="mediumExamples"></div>
+    <h3>Hard</h3>
+    <div id="hardExamples"></div>
+</section>
+</div>
+
+
+<!--Debugging output-->
+<div id="debughelp">
+    <h2>Debug Help Here </h2>
+</div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
