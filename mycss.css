@@ -1,0 +1,91 @@
+
+body {
+    background-color: rgb(92, 133, 162);
+    margin: 0px;
+    
+}
+
+a {
+    color: black;
+}
+
+nav {
+    background-color: rgb(45, 89, 120);
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+    font-family: papyrus;
+    margin: 0px;
+}
+
+.photos {
+    border-radius: 10px
+}
+
+
+
+h1, h2.mainPage {
+    text-align: center;
+    font-family: papyrus;
+}
+
+h2, h3 {
+    font-family: papyrus;
+    padding-left: 10px;
+}
+
+button {
+    padding: 0px 10px 0px 10px;
+}
+
+
+p.regular {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px 10px 0px 10px;
+}
+
+.twoColumnBox1 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 10px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 10px
+}
+
+.twoColumnBox2 {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 10px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 10px
+}
+
+div.nicebox {
+    padding: 10px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 10px
+}
+div.nicespace {
+    padding: 10px;
+    border-width: 3px;
+    margin: 10px
+}
+
+canvas {
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 10px;
+    margin: 5px;
+}
