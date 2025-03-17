@@ -1,4 +1,4 @@
-
+/*
 //A function to help us debug
 function message(text) {
     const debughelp = document.getElementById("debughelp");
@@ -6,6 +6,7 @@ function message(text) {
     child.textContent = text;
     debughelp.appendChild(child);
 }
+*/
 
 
 /*
